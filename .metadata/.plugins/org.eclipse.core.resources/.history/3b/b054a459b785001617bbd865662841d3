@@ -1,0 +1,8 @@
+function validacao{
+	if(document.form.campo1.value==""){
+		alert("Por favor, preencha o campo 1");
+		document.form.campo1.focus();
+		return false;
+	}
+	
+}

@@ -1,0 +1,17 @@
+
+function validacao()
+{
+	if(document.form.value==""){
+		alert("Por favor, preencha o campo Nome");
+		document.form.focus();
+		return false;
+	}
+
+	if(document.form.nome.value.length < 2){
+		alert("O nome deve mais que dois caracteres");
+		document.form.nome.focus();
+		return false;
+	}
+	
+	
+}

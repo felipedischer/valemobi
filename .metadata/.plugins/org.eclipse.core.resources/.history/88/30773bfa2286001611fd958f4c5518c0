@@ -1,0 +1,29 @@
+
+function validacao()
+{
+	if(document.form.nome.value =="" && document.form.tipo.value =="" && document.form.quantidade.value =="" && document.form.preco.value ==""){
+		alert("Por favor, preencha o formulário");
+		document.form.nome.focus();
+		return false;
+	}
+		
+		
+	
+
+	if(isNaN (document.form.preco.value)){
+		alert("Digite apenas números no campo Preço");
+		documento.form.preco.focus();
+		return false;
+		}
+		
+	
+	
+	
+	if(document.form.nome.value.length < 2){
+		alert("O nome deve mais que dois caracteres");
+		document.form.nome.focus();
+		return false;
+	}
+	
+	
+}

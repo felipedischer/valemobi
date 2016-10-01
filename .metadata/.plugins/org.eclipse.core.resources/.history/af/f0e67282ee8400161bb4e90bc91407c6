@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div class="grupo">
+			<label for="campo1">NOME</label> <input type="text" id="campo1"
+				name="nome">
+		</div>
+
+		<div class="grupo">
+			<label for="campo2">EMAIL</label> <input type="text" id="campo2"
+				name="email">
+		</div>
+
+		<div class="grupo">
+			<label for="campo3">TELEFONE</label> <input type="text" id="campo3"
+				name="telefone">
+		</div>
+
+		<div class="grupo">
+			<label for="campo4">NASCIMENTO</label> <input class="datepicker"
+				type="text" id="campo4" name="nascimento">
+		</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Teste</title>
+</head>
+<body>
+
+<main id="conteudo">
+		<div class="container">
+			<form action="contatoservlet" method="post">
+				<h2>Cadastro de Mercadoria</h2>
+				 
+					<div class="grupo">
+						<label for="campo1">CAMPO1</label>
+						<input type="text" id="campo1" name="campo1">
+					</div>
+				-->
+				<div class="grupo">
+					<label for="campo1">Nome da Mercadoria</label>
+					<input type="text" id="campo1" name="nome">
+				</div>
+				
+				<div class="grupo">
+					<label for="campo2">Tipo de Mercadoria</label>
+					<input type="text" id="campo2" name="email">
+				</div>
+				
+				<div class="grupo">
+					<label for="campo3">Quantidade</label>
+					<input type="text" id="campo3" name="telefone">
+				</div>
+				
+				<div class="grupo">
+					<label for="campo4">Preço</label>
+					<input class="datepicker" type="text" id="campo4" name="nascimento">
+				</div>
+				
+				<div class="grupo">
+					<label for="campo5">SEXO</label>
+					<select id="campo5" name="sexo">
+						<option value="MASCULINO">Compra</option>
+						<option value="FEMININO">Venda</option>
+					</select>
+				</div>				
+				<button class="btn btn-cadastrar" type="submit">CADASTRAR</button>
+			</form>
+		</div>
+	</main>
+
+
+
+
+
+
+</body>
+</html>
